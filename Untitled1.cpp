@@ -12,7 +12,7 @@ void f1()
 {
     data  *da = (data *)(&d);
  
-    printf("%x %x %x \n" ,da->b & 0x3 ,da->a & 0xff,da->c &0x3f);
+    int i,j;
 }
 void f2()
 {
@@ -21,8 +21,8 @@ void f2()
     da.b = d >> 8 & 0x3;
     da.c = d >> (8+2) & 0x3f;
 
-    printf("%x %x %x \n",da->a & 0xff ,da->b & 0x3 ,da->c &0x3f);
-
+    
+   int i,j;
 }
 int main()
 {
