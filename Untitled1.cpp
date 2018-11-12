@@ -11,8 +11,7 @@ int d = 0xabcd;
 void f1()
 {
     data  *da = (data *)(&d);
-    printf("%x %x %x \n",da->a & 0xff ,da->b & 0x3 ,da->c &0x3f);
-    printf("hello");
+   
 }
 void f2()
 {
